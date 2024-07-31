@@ -1,0 +1,7 @@
+{
+  "culture": "hu",
+  "texts": {
+    "SamplePageMessage": "A TestModule modul mintaoldala",
+    "Menu:TestModule": "Saját Projektnév"
+  }
+}

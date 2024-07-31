@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TestModule</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiniExcel" Version="1.31.2" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.2.0" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.2.0" />
+    <ProjectReference Include="..\TestModule.Application.Contracts\TestModule.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TestModule.Domain\TestModule.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

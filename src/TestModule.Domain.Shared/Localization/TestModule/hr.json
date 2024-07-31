@@ -1,0 +1,7 @@
+{
+  "culture": "hr",
+  "texts": {
+    "SamplePageMessage": "Ogledna stranica za modul TestModule",
+    "Menu:TestModule": "TestModule"
+  }
+}
